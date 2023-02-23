@@ -1,6 +1,6 @@
 components:
 - name: github.com/acme/db-app
-  version: "v1.1.1"
+  version: "v1.1.2"
   provider:
     name: acme.org
   resources:
