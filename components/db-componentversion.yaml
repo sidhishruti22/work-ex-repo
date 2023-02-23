@@ -12,8 +12,3 @@ spec:
     url: ghcr.io/sidhishruti22
     secretRef:
       name: creds
-  verify:
-  - name: sidhishruti
-    publicKey:
-      secretRef:
-        name: alice-publickey
