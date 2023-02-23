@@ -16,7 +16,7 @@ spec:
   configRef:
     resource:
       resourceRef:
-        name: config
+        name: db-config
   snapshotTemplate:
     name: db-deployment-localized
     createFluxSource: true
