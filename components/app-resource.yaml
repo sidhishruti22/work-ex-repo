@@ -9,6 +9,6 @@ spec:
     name: django-app
     namespace: ocm-system
   resource:
-    name: deployment
+    name: app-deployment
   snapshotTemplate:
-    name: django-app-deployment
+    name: django-app-snapshot-deployment

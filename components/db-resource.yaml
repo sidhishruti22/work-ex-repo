@@ -9,6 +9,6 @@ spec:
     name: db-app
     namespace: ocm-system
   resource:
-    name: deployment
-  snapshotTemplate:
     name: db-deployment
+  snapshotTemplate:
+    name: db-snapshot-deployment
