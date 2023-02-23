@@ -1,0 +1,19 @@
+apiVersion: delivery.ocm.software/v1alpha1
+kind: ComponentVersion
+metadata:
+  name: db-app
+  namespace: ocm-system
+spec:
+  interval: 10m0s
+  component: github.com/acme/db-app
+  version:
+    semver: v1.1.1
+  repository:
+    url: ghcr.io/sidhishruti22
+    secretRef:
+      name: creds
+  verify:
+  - name: alice
+    publicKey:
+      secretRef:
+        name: alice-publickey
